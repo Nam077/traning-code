@@ -108,7 +108,61 @@
          - Bước 3: Thực hiện C
         */
         ```
-        
-
-    
+### 4. Các toán tử cơ bản
   
+  - #### Toán tử trong JavaScript
+    Trong JavaScript, có nhiều loại toán tử được sử dụng để thực hiện các phép tính và so sánh giữa các giá trị. Dưới đây là một số toán tử cơ bản:
+    
+    - Toán tử số học:
+      - Toán tử cộng (`+`): Dùng để cộng hai giá trị.
+      - Toán tử trừ (`-`): Dùng để trừ hai giá trị.
+      - Toán tử nhân (`*`): Dùng để nhân hai giá trị.
+      - Toán tử chia (`/`): Dùng để chia hai giá trị.
+      - Toán tử chia lấy phần dư (`%`): Dùng để lấy phần dư của phép chia hai giá trị.
+    - Toán tử gán:
+      - Toán tử gán (`=`): Dùng để gán giá trị từ phía bên phải vào biến bên trái.
+      - Toán tử cộng và gán (`+=`): Dùng để cộng giá trị từ phía bên phải với giá trị hiện tại của biến và gán kết quả vào biến.
+      - Toán tử trừ và gán (`-=`): Dùng để trừ giá trị từ phía bên phải từ giá trị hiện tại của biến và gán kết quả vào biến.
+      - Toán tử nhân và gán (`*=`): Dùng để nhân giá trị từ phía bên phải với giá trị hiện tại của biến và gán kết quả vào biến.
+      - Toán tử chia và gán (`/=`): Dùng để chia giá trị từ phía bên phải cho giá trị hiện tại của biến và gán kết quả vào biến.
+    - Toán tử logic:
+      - Toán tử bằng (`==` hoặc `===`): Dùng để kiểm tra hai giá trị có bằng nhau hay không.
+      - Toán tử không bằng (`!=` hoặc `!==`): Dùng để kiểm tra hai giá trị có khác nhau hay không.
+      - Toán tử lớn hơn (`>`): Dùng để kiểm tra giá trị bên trái có lớn hơn giá trị bên phải hay không.
+      - Toán tử nhỏ hơn (`<`): Dùng để kiểm tra giá trị bên trái có nhỏ hơn giá trị bên phải hay không.
+      - Toán tử lớn hơn hoặc bằng (`>=`): Dùng để kiểm tra giá trị bên trái có lớn hơn hoặc bằng giá trị bên phải hay không.
+      - Toán tử nhỏ hơn hoặc bằng (`<=`): Dùng để kiểm tra giá trị bên trái có nhỏ hơn hoặc bằng giá trị bên phải hay không.
+      - Toán tử logic và (`&&`): Dùng để kiểm tra cả hai biểu thức đúng.
+      - Toán tử logic hoặc (`||`): Dùng để kiểm tra ít nhất một trong hai biểu thức đúng.
+      - Toán tử logic phủ định (`!`): Dùng để đảo ngược giá trị của biểu thức.
+      - Ví dụ toán tử:
+        ```javascript
+        var x = 5;
+        var y = 10;
+    
+        // Toán tử số học
+        var sum = x + y; // sum = 15
+        var difference = x - y; // difference = -5
+        var product = x * y; // product = 50
+        var quotient = x / y; // quotient = 0.5
+        var remainder = x % y; // remainder = 5
+      
+        // Toán tử gán
+        x += 5; // x = 10 (tương đương x = x + 5)
+        y -= 3; // y = 7 (tương đương y = y - 3)
+        x *= 2; // x = 20 (tương đương x = x * 2)
+        y /= 2; // y = 3.5 (tương đương y = y / 2)
+      
+        // Toán tử so sánh
+        var isEqual = x == y; // isEqual = false
+        var isNotEqual = x != y; // isNotEqual = true
+        var isGreater = x > y; // isGreater = true
+        var isLess = x < y; // isLess = false
+        var isGreaterOrEqual = x >= y; // isGreaterOrEqual = true
+        var isLessOrEqual = x <= y; // isLessOrEqual = false
+      
+        // Toán tử logic
+        var logicalAnd = (x > 0) && (y < 10); // logicalAnd = true
+        var logicalOr = (x > 0) || (y > 10); // logicalOr = true
+        var logicalNot = !(x > 0); // logicalNot = false
+        ```
