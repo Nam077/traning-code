@@ -61,23 +61,54 @@
       let temperature = 25;
       
       if (temperature > 30) {
-      console.log("Nhiệt độ cao");
+        console.log("Nhiệt độ cao");
       } else if (temperature <= 30 && temperature >= 20) {
-      console.log("Nhiệt độ trong khoảng bình thường");
+        console.log("Nhiệt độ trong khoảng bình thường");
       } else {
-      console.log("Nhiệt độ thấp");
+        console.log("Nhiệt độ thấp");
       } // Output: Nhiệt độ thấp
       ```
     -  Sử dụng biến trong vòng lặp
        ```javascript
        for (let i = 1; i <= 5; i++) {
-       console.log("Giá trị của i là: " + i);
+        console.log("Giá trị của i là: " + i);
        }
        for (let number of numbers) {
-       console.log(number);
+        console.log(number);
        } // Output: 1, 2, 3, 4, 5
        ```
-    
-    
+### 3. Comments và cách sử dụng
+  - #### Comments trong JavaScript và mục đích của chúng:
+    Comments (ghi chú) là các đoạn mã trong JavaScript không được thực thi và chỉ có tác dụng giúp lập trình viên giải thích và ghi chú thông tin quan trọng trong code. Chúng có thể được sử dụng để mô tả chức năng của mã, cung cấp hướng dẫn cho những người đọc code, hoặc để tạm thời tắt một đoạn mã.
+    - #### Cách sử dụng single-line và multi-line comments:
+      - Single-line comments (Comments trên một dòng): 
+      
+        Single-line comments được sử dụng để ghi chú trên một dòng. Để tạo một single-line comment, sử dụng dấu hai dấu gạch chéo ngược `//` trước đoạn mã cần ghi chú.
+        
+        Ví dụ:
+        ```javascript
+        // Đây là một single-line comment
+        let name = "John";
+        // Ghi chú về mục đích của biến 
+        let age = 25; // Biến age lưu trữ tuổi của người dùng
+        ```
+      - Multi-line comments (Comments trên nhiều dòng):
 
+        Multi-line comments được sử dụng để ghi chú trên nhiều dòng. Để tạo một multi-line comment, sử dụng dấu gạch chéo ngược kết hợp với dấu sao `/*` để bắt đầu comment và sử dụng dấu sao kết hợp với dấu gạch chéo ngược `*/` để kết thúc comment.
+        
+        Ví dụ:
+        ```javascript
+        /*
+        Đây là một multi-line comment.
+        Nó có thể trải dài trên nhiều dòng.
+        */ 
+        /* Ghi chú về chức năng của đoạn mã:
+         - Bước 1: Thực hiện A
+         - Bước 2: Thực hiện B
+         - Bước 3: Thực hiện C
+        */
+        ```
+        
+
+    
   
