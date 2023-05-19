@@ -166,3 +166,54 @@
         var logicalOr = (x > 0) || (y > 10); // logicalOr = true
         var logicalNot = !(x > 0); // logicalNot = false
         ```
+#### Các kiểu dữ liệu cơ bản trong JavaScript
+  Trong JavaScript, kiểu dữ liệu được chia thành hai nhóm chính: kiểu nguyên thủy (primitive) và kiểu đối tượng (object).
+
+- #### Kiểu nguyên thủy (Primitive Types):
+
+  - Kiểu số (Number): Dùng để lưu trữ các giá trị số. 
+
+  - Kiểu chuỗi (String): Dùng để lưu trữ các đoạn văn bản. 
+
+  - Kiểu boolean (Boolean): Dùng để lưu trữ giá trị true (đúng) hoặc false (sai). 
+
+  - Kiểu null (Null): Chỉ có một giá trị duy nhất là null, thường được sử dụng khi biến không có giá trị. 
+
+  - Kiểu undefined (Undefined): Đại diện cho các biến chưa được khởi tạo giá trị. 
+  
+  - Ví dụ:
+    ```javascript
+    let age = 25;                 // Kiểu số
+    let name = "John";            // Kiểu chuỗi
+    let isLogged = true;          // Kiểu boolean
+    let address = null;           // Kiểu null
+    let phoneNumber;              // Kiểu undefined
+    console.log(typeof age);      // Output: number
+    console.log(typeof name);     // Output: string
+    console.log(typeof isLogged); // Output: boolean
+    console.log(typeof address);  // Output: object
+    console.log(typeof phoneNumber); // Output: undefined
+    ```
+- #### Kiểu đối tượng (Object Types):
+
+  - Kiểu đối tượng (Object): Dùng để lưu trữ một tập hợp các thuộc tính và phương thức. 
+  - Ví dụ:
+    ```javascript
+    let person = {
+        name: "John",
+        age: 30,
+        isStudent: false,
+        address: {
+        street: "123 Main St",
+        city: "New York",
+        country: "USA"
+    },
+        hobbies: ["reading", "traveling", "photography"]
+    };
+    console.log(person.name);            // Output: John
+    console.log(person.age);             // Output: 30
+    console.log(person.address.city);     // Output: New York
+    console.log(person.hobbies[0]);       // Output: reading
+    console.log(typeof person);           // Output: object
+    ```
+  
